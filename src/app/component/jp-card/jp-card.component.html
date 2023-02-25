@@ -1,0 +1,8 @@
+<div class="jp-card-container">
+    <div class="jp-card-header">
+        {{ title }}
+    </div>
+    <div class="jp-card-body" [style.color]="severity > 6 ? 'red' : severity < 3 ? 'green' : '#0008'">
+        {{ value }}
+    </div>
+</div>

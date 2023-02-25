@@ -1,0 +1,7 @@
+
+
+<div class="leads-container">
+    <div *ngFor="let lead of leadMetrics" class="pane">
+        <jp-card [title]="lead.title" [value]="lead.value" [severity]="lead.degree"></jp-card>
+    </div>
+</div>
