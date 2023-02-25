@@ -1,0 +1,15 @@
+.jp-card-container {
+
+    display: inline-block;
+    
+    border-radius: 3px;
+    padding: 10px 15px;
+    min-width: 200px;
+
+    .jp-card-header {
+        margin-bottom: 7px;
+    }
+    .jp-card-body {
+        font-size: 20px;
+    }
+}
