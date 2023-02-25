@@ -1,0 +1,8 @@
+dist/
+.angular/
+.vscode/
+node_modules/
+package-lock.json
+.editorconfig
+.gitkeep
+*.spec.*
